@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 
-class MyClass{
+
+class myClass{
 	public:
-	myClass(){
+	myClass(){ //Это Конструктор
 		cout<<"?Hey!";
 		}
 		void setName(string x){
